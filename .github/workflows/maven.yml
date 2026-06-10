@@ -25,6 +25,8 @@ jobs:
         distribution: temurin
         java-version: 17
         cache: maven
+        server-id: github
+        settings-path: ${{ github.workspace }}
 
     - name: Run Unit Tests
       working-directory: TubesFreelance
