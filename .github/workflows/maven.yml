@@ -56,6 +56,9 @@ jobs:
       run: |
         ls -lah $GITHUB_WORKSPACE
         cat $GITHUB_WORKSPACE/settings.xml
+    - name: Maven Debug
+      working-directory: TubesFreelance
+      run: mvn help:effective-pom
 
     - name: Publish to GitHub Packages
       working-directory: TubesFreelance
