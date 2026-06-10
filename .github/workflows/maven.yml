@@ -1,4 +1,4 @@
-name: Continuous Testin
+name: Continuous Testing
 
 on:
   push:
