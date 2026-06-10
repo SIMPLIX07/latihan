@@ -39,3 +39,13 @@ jobs:
         org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
         -Dsonar.projectKey=SIMPLIX07_latihan
         -Dsonar.organization=simplix07
+        
+    - name: Build Application
+      working-directory: TubesFreelance
+      run: mvn clean package
+
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: TubesFreelance-JAR
+        path: TubesFreelance/target/*.jar
