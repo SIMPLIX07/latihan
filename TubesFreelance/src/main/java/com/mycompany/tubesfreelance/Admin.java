@@ -3,7 +3,7 @@ package com.mycompany.tubesfreelance;
 import java.util.ArrayList;
 
 /**
- * Class Admin untuk mengelola pengguna dan pengumuman.
+ * Class Admin untuk mengelola pengguna dan pengumuman. 
  */
 public class Admin implements User {
     private String Id;
