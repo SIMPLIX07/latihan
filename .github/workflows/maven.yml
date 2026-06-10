@@ -52,13 +52,15 @@ jobs:
         name: TubesFreelance-JAR
         path: TubesFreelance/target/*.jar
 
+    - name: Check settings.xml
+      run: |
+        ls -lah $GITHUB_WORKSPACE
+        cat $GITHUB_WORKSPACE/settings.xml
+
     - name: Publish to GitHub Packages
       working-directory: TubesFreelance
       run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Check settings.xml
-      run: |
-        ls -lah $GITHUB_WORKSPACE
-        cat $GITHUB_WORKSPACE/settings.xml
+
