@@ -3,9 +3,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <!-- Informasi Proyek -->
-    <groupId>com.mycompany</groupId>
+    <groupId>com.github.simplix07</groupId>
     <artifactId>TubesFreelance</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packaging>jar</packaging>
     <name>TubesFreelance2</name>
 
