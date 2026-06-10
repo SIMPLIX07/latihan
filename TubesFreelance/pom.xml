@@ -4,8 +4,8 @@
 
     <!-- Informasi Proyek -->
     <groupId>com.github.simplix07</groupId>
-    <artifactId>TubesFreelance</artifactId>
-    <version>1.0.3</version>
+    <artifactId>tubesfreelance</artifactId>
+    <version>1.0.4</version>
     <packaging>jar</packaging>
     <name>TubesFreelance2</name>
 
