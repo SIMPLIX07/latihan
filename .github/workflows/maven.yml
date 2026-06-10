@@ -30,3 +30,8 @@ jobs:
     - name: Build with Maven
       working-directory: TubesFreelance
       run: mvn -B package
+      
+    - name: Run Unit Tests
+      working-directory: TubesFreelance
+      run: mvn test
+
